@@ -1,0 +1,14 @@
+doctype
+html
+	head
+		title MySeed
+		link(rel='stylesheet', href='style.min.css')
+	body
+		header
+			if user
+				a(href='/signout') Logout
+
+		block content
+
+		footer
+			script(src='build.min.js')
